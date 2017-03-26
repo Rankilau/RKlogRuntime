@@ -16,6 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSLog(@"这是一个利用runtime埋点的小程序");
     // Override point for customization after application launch.
     return YES;
 }
