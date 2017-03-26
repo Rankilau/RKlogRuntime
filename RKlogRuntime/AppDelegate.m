@@ -18,6 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSLog(@"这是一个利用runtime埋点的小程序");
     // Override point for customization after application launch.
+    NSLog(@"octocatLau 帮你修复了一个bug");
     return YES;
 }
 
