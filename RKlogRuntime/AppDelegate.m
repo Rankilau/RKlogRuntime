@@ -20,6 +20,8 @@
     // Override point for customization after application launch.
     NSLog(@"octocatLau 帮你修复了一个bug");
     NSLog(@"我有一个女儿");
+    
+    NSLog(@"1+1=3");
     return YES;
 }
 
