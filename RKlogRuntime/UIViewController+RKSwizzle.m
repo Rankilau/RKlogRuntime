@@ -24,13 +24,13 @@
 
 - (void)swizzleViewWillAppear:(BOOL)animation {
     //初始化要上报的日志
-    NSMutableDictionary *logDic = [[NSMutableDictionary alloc]init];
-    
-    [logDic setObject:NSStringFromClass([self class]) forKey:@"className"];
-    if ([logDic allKeys].count) {
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"showLogResult" object:logDic];
-        NSLog(@"上传的logDic:%@",logDic);
-    }
+//    NSMutableDictionary *logDic = [[NSMutableDictionary alloc]init];
+//    
+//    [logDic setObject:NSStringFromClass([self class]) forKey:@"className"];
+//    if ([logDic allKeys].count) {
+//        [[NSNotificationCenter defaultCenter] postNotificationName:@"showLogResult" object:logDic];
+//        NSLog(@"上传的logDic:%@",logDic);
+//    }
 
 }
 

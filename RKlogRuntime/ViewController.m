@@ -57,8 +57,6 @@
      NSLog(@"btn2DidClick");
 }
 
-
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

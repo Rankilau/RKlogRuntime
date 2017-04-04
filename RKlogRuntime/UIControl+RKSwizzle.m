@@ -37,8 +37,6 @@
 
 - (void)swizzleSendAction:(SEL)action to:(nullable id)target forEvent:(nullable UIEvent *)event {
 
-    NSLog(@"%@",[RKLogUploader shareInstance]);
-
    NSString *pathString = [[NSBundle mainBundle] pathForResource:@"DownLoadSource" ofType:@"plist"];
    NSDictionary *plistDic = [NSDictionary dictionaryWithContentsOfFile:pathString];
     
