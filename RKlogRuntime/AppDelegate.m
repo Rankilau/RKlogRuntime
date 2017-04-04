@@ -7,8 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "RKLogUploader.h"
 
 @interface AppDelegate ()
+
 
 @end
 
@@ -16,13 +18,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    NSLog(@"这是一个利用runtime埋点的小程序");
-    // Override point for customization after application launch.
-    NSLog(@"octocatLau 帮你修复了一个bug");
-    NSLog(@"我有一个女儿");
     
-    NSLog(@"1+1=2");
-    return YES;
+       return YES;
 }
 
 
