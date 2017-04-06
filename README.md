@@ -5,6 +5,8 @@ RKlogRuntime 快速入门
 在使用中有任何问题都可以提issue，同时也欢迎提PR。
 
 导航
+[常见问题](#常见问题)
+
 ![](https://github.com/Rankilau/RKlogRuntime/raw/master/logruntime.gif)<br>
 
 简介
