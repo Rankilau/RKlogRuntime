@@ -4,21 +4,21 @@ RKlogRuntime 快速入门
 ========
 在使用中有任何问题都可以提issue，同时也欢迎提PR。
 
-导航
+导航<br>
+[简介](#简介)<br>
+[使用方法](#使用方法)<br>
 [常见问题](#常见问题)<br>
-
 [TODO](#TODO)<br>
 
 ![](https://github.com/Rankilau/RKlogRuntime/raw/master/logruntime.gif)<br>
 
 简介
 ---
-    RKlogRuntime是一个免费且开源的无痕埋点方法，实现按钮点击事件无痕埋点，viewcontroller的pv无痕埋点。目的是给开发者提供一个无痕埋点案。
+RKlogRuntime是一个免费且开源的无痕埋点方法，实现按钮点击事件无痕埋点，viewcontroller的pv无痕埋点。目的是给开发者提供一个无痕埋点案。
 获取项目
 git clone git@github.com:Rankilau/RKlogRuntime.git
 
 集成效果
-#图片
 
 使用方法
 ---
@@ -48,5 +48,8 @@ RKlogRuntime是完全开源并且免费给开发者使用。
 [我的博客](www.baidu.com)
 
 ## TODO
-实现服务器下发埋点配置文件
-实现服务器下发埋点配置文件
+实现服务器下发埋点配置文件<br>
+支持pod集成功能<br>
+完善日志上传引擎，支持可配置上传选项，比如30个埋点时上传一次，或者是5分钟上传一次<br>
+归纳core文件夹，便于读者入读<br>
+做博客主页<br>
