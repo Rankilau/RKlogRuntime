@@ -5,8 +5,9 @@ RKlogRuntime 快速入门
 在使用中有任何问题都可以提issue，同时也欢迎提PR。
 
 导航
-[常见问题]<br>
-(#常见问题)<br>
+[常见问题](#常见问题)<br>
+
+[TODO](#TODO)<br>
 
 ![](https://github.com/Rankilau/RKlogRuntime/raw/master/logruntime.gif)<br>
 
@@ -46,5 +47,8 @@ RKlogRuntime是完全开源并且免费给开发者使用。
 ---
 [我的博客](www.baidu.com)
 
+## TODO
 
+实现服务器下发埋点配置文件
 
+实现服务器下发埋点配置文件
