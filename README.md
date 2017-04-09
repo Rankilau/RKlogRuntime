@@ -8,7 +8,7 @@ RKlogRuntime 快速入门
 [简介](#简介)<br>
 [使用方法](#使用方法)<br>
 [常见问题](#常见问题)<br>
-[TODO](#TODO)<br>
+[将要做的](#将要做的)<br>
 
 ![](https://github.com/Rankilau/RKlogRuntime/raw/master/logruntime.gif)<br>
 
@@ -46,7 +46,7 @@ RKlogRuntime是完全开源并且免费给开发者使用。
 
 [我的博客](www.baidu.com)
 
-TODO
+将要做的
 ---
 实现服务器下发埋点配置文件<br>
 支持pod集成功能<br>
