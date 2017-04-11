@@ -33,4 +33,9 @@ static RKLogUploader *logUploader;
 + (id)mutableCopyWithZone:(struct _NSZone *)zone {
     return [RKLogUploader shareInstance];
 }
+
+- (void)uploadLog:(NSMutableArray *)logArray {
+    NSLog(@"需要上传的log：%@",logArray);
+}
+
 @end

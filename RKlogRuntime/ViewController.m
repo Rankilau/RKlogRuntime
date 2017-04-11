@@ -44,7 +44,7 @@
         make.centerY.equalTo(self.view.mas_centerY).offset(50);
         make.width.height.equalTo(@40);
     }];
-    
+        
 }
 
 - (void)btn1DidClick:(id)sender

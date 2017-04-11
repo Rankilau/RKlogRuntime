@@ -10,6 +10,7 @@
 #import "RKSwizzleTool.h"
 #import "RKLogDataCenter.h"
 #import "RKLogUploader.h"
+#import "RKLogContainer.h"
 
 @implementation UIControl (RKSwizzle)
 
@@ -71,8 +72,7 @@
     }
     
     if ([logDic allKeys].count) {
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"uploadLogDic" object:logDic];
-        NSLog(@"上传的logDic:%@",logDic);
+        [[RKLogContainer shareInstance] addLog:logDic];
     }
 }
 
