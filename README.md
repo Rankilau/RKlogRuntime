@@ -8,7 +8,7 @@ RKlogRuntime 快速入门
 [简介](#简介)<br>
 [使用方法](#使用方法)<br>
 [常见问题](#常见问题)<br>
-[TODO](#TODO)<br>
+[将要做的](#将要做的)<br>
 
 ![](https://github.com/Rankilau/RKlogRuntime/raw/master/logruntime.gif)<br>
 
@@ -44,10 +44,10 @@ RKlogRuntime是完全开源并且免费给开发者使用。
 ---
 组件可以实现无痕埋点，对代码侵蚀性减到最小；实现动态下发埋点逻辑，防止遗漏重要埋点，影响业务统计。
 
----
 [我的博客](www.baidu.com)
 
-## TODO
+将要做的
+---
 实现服务器下发埋点配置文件<br>
 支持pod集成功能<br>
 完善日志上传引擎，支持可配置上传选项，比如30个埋点时上传一次，或者是5分钟上传一次<br>
