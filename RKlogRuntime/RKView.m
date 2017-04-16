@@ -6,9 +6,9 @@
 //  Copyright © 2017年 rankilau. All rights reserved.
 //
 
-#import "RKNView.h"
+#import "RKView.h"
 
-@implementation RKNView
+@implementation RKView
 
 /*
 // Only override drawRect: if you perform custom drawing.

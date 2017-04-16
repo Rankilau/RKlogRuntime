@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RKNView : UIView
+@interface RKView : UIView
 
 @end
