@@ -30,6 +30,7 @@
 		162EBE0F1E87714D003121FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162EBE0E1E87714D003121FA /* Assets.xcassets */; };
 		162EBE121E87714D003121FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162EBE101E87714D003121FA /* LaunchScreen.storyboard */; };
 		16C674B31EA230AD0056FC35 /* RKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C674B21EA230AD0056FC35 /* RKView.m */; };
+		16C674B61EA36FC30056FC35 /* RKLogContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C674B51EA36FC30056FC35 /* RKLogContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,8 @@
 		162EBE131E87714D003121FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16C674B11EA230AD0056FC35 /* RKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKView.h; sourceTree = "<group>"; };
 		16C674B21EA230AD0056FC35 /* RKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKView.m; sourceTree = "<group>"; };
+		16C674B41EA36FC30056FC35 /* RKLogContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKLogContainer.h; sourceTree = "<group>"; };
+		16C674B51EA36FC30056FC35 /* RKLogContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKLogContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,8 @@
 		162EBE011E87714D003121FA /* RKlogRuntime */ = {
 			isa = PBXGroup;
 			children = (
+				16C674B41EA36FC30056FC35 /* RKLogContainer.h */,
+				16C674B51EA36FC30056FC35 /* RKLogContainer.m */,
 				16099D311E920B0100B92BE1 /* RKLogUploader.h */,
 				16099D321E920B0100B92BE1 /* RKLogUploader.m */,
 				1608258C1E8F89D20060FBC1 /* RKLogDataCenter.h */,
@@ -257,6 +262,7 @@
 				162486DD1E8B4B5D008CDCC0 /* MASViewConstraint.m in Sources */,
 				160825891E8E6AE10060FBC1 /* RKSwizzleTool.m in Sources */,
 				162486D81E8B4B5D008CDCC0 /* MASCompositeConstraint.m in Sources */,
+				16C674B61EA36FC30056FC35 /* RKLogContainer.m in Sources */,
 				16099D331E920B0100B92BE1 /* RKLogUploader.m in Sources */,
 				162486DE1E8B4B5D008CDCC0 /* NSArray+MASAdditions.m in Sources */,
 				162EBE0A1E87714D003121FA /* ViewController.m in Sources */,
